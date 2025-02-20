@@ -46,3 +46,56 @@
 git clone https://github.com/YOUR_GITHUB_USERNAME/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
+```
+
+### ⚒️ Configure API Keys & Credentials
+
+1. Mailchimp API:
+	- Get your API key from Mailchimp API Settings.
+	- Set your Mailchimp data center (the part after the hyphen in your API key) and list ID.
+2. Google Sheets API:
+	- Enable the Google Sheets API and download your credentials.json file from the Google API Console.
+	- Place the credentials.json in the project folder and update the constants in main.py.
+
+---
+
+## 📌 Usage
+Run the project using:
+```sh
+python main.py
+```
+
+---
+
+## 🏗️ Project Structure
+Email-Campaign-Dashboard/
+│
+├── main.py          # Contains all project logic (Mailchimp, scraping, and Sheets integration)
+├── README.md        # This file: Overview, setup, and usage instructions
+├── requirements.txt # List of Python dependencies
+└── .gitignore       # Specifies files/folders to be ignored by Git
+
+---
+
+## 🤖 Tech Stack
+- Python – Core language
+- Selenium – Dynamic web scraping
+- Mailchimp API – Fetches campaign insights
+- Google Sheets API – Manages spreadsheet data
+
+---
+
+## 💡 Future Enhancements
+
+- [ ] Login Handling for Twitter/X: Implement advanced authentication.
+- [ ] Multiple Mailchimp Lists Support: Handle more than one audience.
+- [ ] Dashboard Visualization: Create a UI for data analytics.
+
+---
+
+## 👨‍💻 Author & License
+
+Created by Shon Haskaj.
+
+This project is licensed under the MIT License.
+If you found this project useful, please give it a star!
